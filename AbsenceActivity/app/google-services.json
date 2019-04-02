@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "725403706312",
+    "firebase_url": "https://absence-b6d1f.firebaseio.com",
+    "project_id": "absence-b6d1f",
+    "storage_bucket": "absence-b6d1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725403706312:android:2fc271a3be9e61b6",
+        "android_client_info": {
+          "package_name": "com.usut.absenceactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725403706312-c01gaodrpeugris3kie8qrnd9qcp8epb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz-hi-K1UGFeTyGdFNmJN8WhMilKyfVQM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

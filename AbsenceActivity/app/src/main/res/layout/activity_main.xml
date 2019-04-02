@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/android"/>
+
+    <Button
+        android:id="@+id/btn_Call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:layout_marginBottom="16dp"
+        android:layout_margin="8dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="btnCall"/>
+
+    <Button
+        android:id="@+id/btn_Absence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_margin="8dp"
+        android:layout_toRightOf="@+id/btn_Call"
+        android:onClick="btnAbsence"/>
+
+    <Button
+        android:id="@+id/btn_Mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mail"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_margin="8dp"
+        android:layout_toRightOf="@+id/btn_Absence"
+        android:onClick="btnMail"/>
+
+    <Button
+        android:id="@+id/btn_Map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_margin="8dp"
+        android:layout_toRightOf="@+id/btn_Mail"
+        android:onClick="btnMap"/>
+
+
+
+</RelativeLayout>
